@@ -74,6 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B55DF3B71CD4506D00A52480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B55DF3B81CD4507900A52480 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B59B61051CD446AB00341A39 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B55DF3B91CD4508E00A52480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B59B61071CD446AB00341A39 /* Main.storyboard */,
+				B59B610C1CD446AB00341A39 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B55DF3BA1CD450A200A52480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B59B610A1CD446AB00341A39 /* Assets.xcassets */,
+				B59B610F1CD446AB00341A39 /* Info.plist */,
+				B59B61031CD446AB00341A39 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B59B60F71CD446AB00341A39 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +131,10 @@
 		B59B61021CD446AB00341A39 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				B59B61031CD446AB00341A39 /* AppDelegate.swift */,
-				B59B61051CD446AB00341A39 /* ViewController.swift */,
-				B59B61071CD446AB00341A39 /* Main.storyboard */,
-				B59B610A1CD446AB00341A39 /* Assets.xcassets */,
-				B59B610C1CD446AB00341A39 /* LaunchScreen.storyboard */,
-				B59B610F1CD446AB00341A39 /* Info.plist */,
+				B55DF3BA1CD450A200A52480 /* Supporting Files */,
+				B55DF3B71CD4506D00A52480 /* Model */,
+				B55DF3B81CD4507900A52480 /* Controller */,
+				B55DF3B91CD4508E00A52480 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -484,6 +516,7 @@
 				B59B612A1CD446AB00341A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59B612B1CD446AB00341A39 /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				B59B612D1CD446AB00341A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59B612E1CD446AB00341A39 /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				B59B61301CD446AB00341A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
